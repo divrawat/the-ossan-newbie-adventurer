@@ -18,7 +18,7 @@ const Dmca = () => {
         <>
             {head()}
             <Navbar />
-            <div className="max-w-[1000px] mx-auto p-5">
+            <div className="max-w-[1000px] mx-auto p-5 text-white">
                 <h1 className="text-center font-bold text-3xl my-8">DMCA</h1>
 
                 <p className="my-8 leading-[2]">Our website, {DOMAIN}, does not host any content on its servers. Instead, we link to or embed content uploaded to popular image hosting sites like Imgur, Cubeupload, Google Drive, and similar platforms.</p>
