@@ -253,7 +253,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
             <article>
 
 
-
+                <AdSense />
 
 
                 <h1 className="text-3xl font-bold text-center text-[white] px-5 pt-5 md:my-5">{`${MANGA_NAME} Chapter ${chapterNumber}`}</h1>
@@ -340,7 +340,7 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
 
 
 
-
+                <AdSense />
 
 
                 {/* <div className='py-10 bg-[#0f0511]'>

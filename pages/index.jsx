@@ -177,6 +177,8 @@ export default function Home() {
       <article>
 
 
+        <AdSense />
+
         <div className='max-w-[1200px] mx-auto md:flex rounded-md md:gap-[80px] bg-[black] mt-8 border border-[#373737] text-[white]'>
 
           <div className='md:w-[400px] md:pt-0 pt-6'>
@@ -216,7 +218,7 @@ export default function Home() {
           <Link href={DOMAIN} className="hover:underline text-[white]">{`Read ${MANGA_NAME} Manga Online`}</Link>
         </h2>
 
-
+        <AdSense />
 
 
         <div className='mx-6'>
@@ -246,7 +248,7 @@ export default function Home() {
           </div>
         </div>
 
-
+        <AdSense />
 
 
         <div className="text-white my-5">
