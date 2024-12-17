@@ -177,7 +177,7 @@ export default function Home() {
       <article>
 
 
-        <AdSense />
+
 
         <div className='max-w-[1200px] mx-auto md:flex rounded-md md:gap-[80px] bg-[black] mt-8 border border-[#373737] text-[white]'>
 
@@ -218,7 +218,7 @@ export default function Home() {
           <Link href={DOMAIN} className="hover:underline text-[white]">{`Read ${MANGA_NAME} Manga Online`}</Link>
         </h2>
 
-        <AdSense />
+
 
 
         <div className='mx-6'>
@@ -227,7 +227,7 @@ export default function Home() {
             {chapters?.map((chapter, index) => (
               <div className="flex hover:scale-105 active:scale-95 transition-transform my-1" key={index}>
                 <a
-                  // onClick={handleRedirect}
+                  onClick={handleRedirect}
                   href={chapter.url} className="sm:p-5 p-1.5 text-center  hover:underline text-white bg-black hover:bg-[#2c2b2b] border border-[#292828] rounded sm:w-[160px] w-[110px]">
                   <p className="sm:text-[14px] text-[12px] tracking-wider font-semibold">{`Chapter  ${chapter?.number}`}</p>
                 </a>
@@ -248,7 +248,7 @@ export default function Home() {
           </div>
         </div>
 
-        <AdSense />
+
 
 
         <div className="text-white my-5">
