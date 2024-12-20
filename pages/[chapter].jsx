@@ -13,7 +13,7 @@ import { FaRedditAlien } from "react-icons/fa";
 import React from 'react';
 import dynamic from 'next/dynamic';
 // const AdSense = dynamic(() => import('@/components/Adsense'), { ssr: false });
-// export const runtime = 'experimental-edge';
+export const runtime = 'experimental-edge';
 
 export default function Chapter({ chapterNumber, imageUrls, totalChapters, params, errorcode }) {
 
@@ -386,7 +386,7 @@ export async function getServerSideProps({ req, res, params }) {
     const numImages = chapterData.numImages;
     const imageUrls = getImageUrls(chapterNumber, numImages);
 
-    res.setHeader('Cache-Control', 'public, s-maxage=108000, stale-while-revalidate=59');
+    // res.setHeader('Cache-Control', 'public, s-maxage=108000, stale-while-revalidate=59');
 
     return { props: { chapterNumber, imageUrls, totalChapters, params, chapterIndex } };
 }
