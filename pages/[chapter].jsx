@@ -12,7 +12,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaRedditAlien } from "react-icons/fa";
 import React from 'react';
 import dynamic from 'next/dynamic';
-const AdSense = dynamic(() => import('@/components/Adsense'), { ssr: false });
+// const AdSense = dynamic(() => import('@/components/Adsense'), { ssr: false });
 export const runtime = 'experimental-edge';
 
 export default function Chapter({ chapterNumber, imageUrls, totalChapters, params, errorcode }) {
