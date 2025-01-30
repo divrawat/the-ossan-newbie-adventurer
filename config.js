@@ -78,8 +78,9 @@ export const MANGA_SUMMARY = [
 export const navLinks = [
     // { text: 'Jinx Manga', href: `https://jinx.adoptedbyamurderousdukefamily.in.net` },
     { text: 'Chapter 1', href: `${DOMAIN}/chapter-1` },
-    { text: 'Chapter 2', href: `${DOMAIN}/chapter-2` },
-    { text: 'Chapter 3', href: `${DOMAIN}/chapter-3` },
+    { text: 'Deva Movie', href: `https://github.com/Deva-Movie-HD-Download-2025` },
+
+    // { text: 'Chapter 3', href: `${DOMAIN}/chapter-3` },
 ];
 
 export const FooterLinks = [
