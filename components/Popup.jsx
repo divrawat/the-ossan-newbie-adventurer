@@ -27,6 +27,7 @@ export default function Popup() {
 
     const handleClose = () => {
         setIsVisible(false);
+        window.open('https://telegram.me/manga_chimp_toons', '_blank');
         localStorage.setItem(POPUP_KEY, Date.now());
     };
 
