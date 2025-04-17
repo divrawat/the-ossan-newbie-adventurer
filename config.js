@@ -3,7 +3,7 @@ export const DOMAIN = 'https://theossannewbieadventurer.online';
 
 export const DOMAIN_NAME = 'theossannewbieadventurer.online';
 
-export const IMAGES_SUBDOMAIN = 'https://images.mangachimp.com/the-ossan-newbie-adventurer';
+export const IMAGES_SUBDOMAIN = 'https://images.theossannewbieadventurer.online/the-ossan-newbie-adventurer';
 export const IMAGES_SUBDOMAIN_LOGO = 'https://images.mangachimp.com';
 
 // export const MANGA_DESCRIPTION0 = `<a href="${DOMAIN}"><u><b>Vinland Saga</b></u></a>`;
@@ -76,11 +76,9 @@ export const MANGA_SUMMARY = [
 
 
 export const navLinks = [
-    // { text: 'Jinx Manga', href: `https://jinx.adoptedbyamurderousdukefamily.in.net` },
+    { text: 'Secret Class', href: `https://www.secretclass.in.net` },
     { text: 'Chapter 1', href: `${DOMAIN}/chapter-1` },
-    { text: 'Deva Movie', href: `https://github.com/Deva-Movie-HD-Download-2025` },
-
-    // { text: 'Chapter 3', href: `${DOMAIN}/chapter-3` },
+    { text: 'Chapter 3', href: `${DOMAIN}/chapter-3` },
 ];
 
 export const FooterLinks = [
