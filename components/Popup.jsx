@@ -50,7 +50,7 @@ export default function Popup() {
 
                 <h2 className={`${roboto2.className} my-3 text-[20px] text-center font-bold`}>Manga Chimp Toons</h2>
 
-                <p className={`${roboto2.className} max-w-[300px] mx-auto my-3 text-center`}>Join our Telegram and Discord channels to stay updated</p>
+                <p className={`${roboto2.className} max-w-[300px] mx-auto my-3 text-center`}>Join our Telegram channel to stay updated</p>
 
 
                 <div className='flex justify-center gap-5 items-center mt-5 mb-5'>
@@ -61,12 +61,12 @@ export default function Popup() {
                         </a>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <a href="https://discord.gg/zK7s4FSxrJ" className="flex gap-1 items-center bg-indigo-500 text-white rounded-md px-2 py-1">
                             <span><FaDiscord /></span>
                             <span className={`${roboto.className} text-[16px] tracking-wider`}>Discord</span>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
 
 
