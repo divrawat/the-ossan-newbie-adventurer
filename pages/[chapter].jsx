@@ -222,9 +222,21 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
 
 
 
+    //  const handleRedirect = () => {    window.open('https://thampolsi.com/4/7457654', '_blank'); };
+
     const handleRedirect = () => {
-        window.open('https://thampolsi.com/4/7457654', '_blank');
+        const REDIRECT_KEY = 'lastRedirectTime';
+        const FIVE_MINUTES = 5 * 60 * 1000; // 5 minutes in milliseconds
+
+        const lastRedirect = localStorage.getItem(REDIRECT_KEY);
+        const now = Date.now();
+
+        if (!lastRedirect || now - Number(lastRedirect) > FIVE_MINUTES) {
+            localStorage.setItem(REDIRECT_KEY, now.toString());
+            window.open('https://thampolsi.com/4/7457654', '_blank');
+        }
     };
+
 
 
     const head = () => (
