@@ -97,8 +97,6 @@ export const FooterLinks = [
 
 
 export const chaptersData =
-
-
     [
         {
             "chapterNumber": "1",
